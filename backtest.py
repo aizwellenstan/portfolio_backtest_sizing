@@ -40,8 +40,8 @@ best_sharpe = -float('inf')
 best_combo = (0, 0)
 results = []
 
-for risk_pct in [i / 100 for i in range(1, 51)]:  # 0.01 to 0.50
-    for min_contracts in range(1, 51):  # 1 to 50
+for risk_pct in [i / 1000 for i in range(1, 300)]:  # 0.01 to 0.50
+    for min_contracts in range(1, 20):  # 1 to 50
         balance = start_balance
         trade_profits = []
 

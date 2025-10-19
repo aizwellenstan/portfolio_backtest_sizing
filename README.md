@@ -6,4 +6,7 @@ Key features:
 - Dynamic sizing logic tailored to strategy risk parameters
 - Resolution of percentage sizing inconsistencies
 - Optimization of fixed size to achieve best expansion and scalability
-[efficiency.py](./efficiency.py)
+
+## Key Modules
+
+- [expectancy.py](./expectancy.py): Implements dynamic sizing logic and fixed-size optimization.
